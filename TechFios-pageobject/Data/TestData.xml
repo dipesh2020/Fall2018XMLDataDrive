@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<suite name = "TestingSuite">
+<test name = "AddingContact">
+
+<parameter name="Loginemail" value="techfiosdemo@gmail.com"/>
+<parameter name="password" value="abc123"/>
+<parameter name="FName" value="Dipesh Bhattarai"/>
+<parameter name="Company" value="ABC"/>
+<parameter name="Email" value="messi@gmail.com"/>
+<parameter name="Phone" value="787585678"/>
+<parameter name="Address" value="9126 conser st "/>
+<parameter name="City" value="Lees Summit"/>
+<parameter name="State" value="Kansas"/>
+<parameter name="Zip" value="66212"/>
+
+<classes>
+<class name = "test.AddContactTest"/>
+</classes>
+
+</test>
+</suite>
+
+
